@@ -1,6 +1,6 @@
-abstract class Sheep {
-    private String color = "white";
-    private String sound;
+public class BlackSheep extends Sheep {
+    private String color = "Black";
+    private String sound = "Muuuh";
 
     public String getColor() {
         return color;
@@ -18,3 +18,4 @@ abstract class Sheep {
         this.sound = sound;
     }
 }
+

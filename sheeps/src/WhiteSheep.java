@@ -1,6 +1,6 @@
-abstract class Sheep {
-    private String color = "white";
-    private String sound;
+public class WhiteSheep extends Sheep {
+    private String color = "White";
+    private String sound = "Meeeh";
 
     public String getColor() {
         return color;
