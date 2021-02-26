@@ -87,7 +87,7 @@ public class Server {
     /**
      * @param inputStream
      */
-    private static  void listen(final InputStream inputStream) {
+    private static void listen(final InputStream inputStream) {
         new Thread(new Runnable() {
             DataInputStream ds = new DataInputStream(inputStream);
             public void run() {
